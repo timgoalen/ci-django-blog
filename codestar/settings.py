@@ -32,7 +32,7 @@ DEBUG = True
 
 # ALLOWED_HOSTS = ['8000-timgoalen-cidjangoblog-6gc3ygvfc8r.ws-eu102.gitpod.io']
 # ALLOWED_HOSTS = ['tg-ci-django-blog.herokuapp.com', '8000-timgoalen-cidjangoblog-6gc3ygvfc8r.ws-eu102.gitpod.io']
-ALLOWED_HOSTS = ['tg-ci-django-blog.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['tg-ci-django-blog.herokuapp.com', 'localhost', 'tg-ci-django-blog-2a48a3d9923b.herokuapp.com']
 
 
 # Application definition
