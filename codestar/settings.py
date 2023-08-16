@@ -32,7 +32,7 @@ DEBUG = True
 
 # ALLOWED_HOSTS = ['8000-timgoalen-cidjangoblog-6gc3ygvfc8r.ws-eu102.gitpod.io']
 # ALLOWED_HOSTS = ['tg-ci-django-blog.herokuapp.com', '8000-timgoalen-cidjangoblog-6gc3ygvfc8r.ws-eu102.gitpod.io']
-ALLOWED_HOSTS = ['tg-ci-django-blog.herokuapp.com', 'localhost', 'tg-ci-django-blog-2a48a3d9923b.herokuapp.com', '8000-timgoalen-cidjangoblog-6gc3ygvfc8r.ws-eu103.gitpod.io']
+ALLOWED_HOSTS = ['tg-ci-django-blog.herokuapp.com', 'localhost', 'tg-ci-django-blog-2a48a3d9923b.herokuapp.com', '8000-timgoalen-cidjangoblog-6gc3ygvfc8r.ws-eu103.gitpod.io', '8000-timgoalen-cidjangoblog-6gc3ygvfc8r.ws-eu104.gitpod.io']
 
 ACCOUNT_EMAIL_VERIFICATION = 'none'
 
@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cloudinary',
     'django_summernote',
+    'crispy_forms',
     'blog',
 ]
 
@@ -59,6 +60,8 @@ SITE_ID = 1
 
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
